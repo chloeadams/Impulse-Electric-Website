@@ -424,9 +424,6 @@ p.uppercase a:hover { text-decoration: none;}
 ====================================== */
 
 nav { width: 100%; top: 0px; z-index: 99; color: white;}
-.navbar-default .navbar-nav > li > a {
-    color: white;
-}
 nav .container{ display: table-cell; vertical-align: middle; height: 80px; position: relative; }
 .shrink-nav .container { height: 60px; color:black;}
 .shrink-nav { background-color:#FFF; color:black;}
@@ -2036,7 +2033,7 @@ thead th.first { padding-left: 0 !important; }
 .spa-packages-img {max-width:110%;}
 
 /* agency */
-.agency-header h1 {font-size: 70px; font-weight: 700; letter-spacing: -2px; line-height: 70px; text-transform: unset; color: white;}
+.agency-header h1 {font-size: 90px; font-weight: 700; letter-spacing: -2px; line-height: 90px; text-transform: unset; color: white;}
 .agency-header span {font-size:16px; font-weight:400; display:block; margin:19% 0 12%}
 .agency-header img { margin-bottom: 2%; width: 22%;}
 .agency-title {border-left:4px solid #990100; padding-left:25px;}
@@ -2187,4 +2184,27 @@ thead th.first { padding-left: 0 !important; }
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
   #safari { display: block; } 
   nav * { transition-timing-function: none; -moz-transition-timing-function: none; -webkit-transition-timing-function: none; -o-transition-timing-function: none; transition-duration: 0s; -moz-transition-duration: 0s; -webkit-transition-duration: 0s; -o-transition-duration: 0s; }
+}
+
+ #map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
+
+.texasOutline {
+    width: 50px;
+    height: 50px;
+}
+
+
+svg{
+  width:50%;
+  height:50%;
+}
+
+
+#pulsar{
+  stroke-dasharray:281;
+  -webkit-animation: dash 2.5s infinite linear forwards;
 }
